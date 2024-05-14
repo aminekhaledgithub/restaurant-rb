@@ -1,0 +1,96 @@
+#cards-section {
+    margin-top: 75px;
+    padding-bottom: 75px;
+}
+
+#cards {
+    padding: 20px 5px 20px 5px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    transition: 0.2s ease-in;
+    box-shadow: 0px 10px 30px black;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-header {
+    background-color: gray;
+    height: 150px;
+}
+
+.card-header h2 {
+    position: relative;
+    text-align: center;
+    top: 80px;
+
+}
+
+.spanPrix {
+    font-size: 22px;
+}
+
+.price {
+
+    width: 250px;
+    height: 70px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    background: rgba(2, 2, 2, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.price h2 {
+    text-align: center;
+    position: relative;
+    font-family: "Kaushan Script";
+    top: 0;
+}
+
+.details {
+    text-align: center;
+    position: relative;
+    background: white;
+    height: 40px;
+    line-height: 60px;
+    font-family: "Lato";
+    transition: all 0.2s ease-in;
+
+}
+
+.details:hover {
+    background-color: gray;
+}
+
+#card-btn {
+    background: white;
+    height: 60px;
+    padding-top: 20px;
+}
+
+#card-btn a {
+    font-family: "Lato";
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 30%;
+    position: relative;
+    top: 10px;
+    display: block;
+    border: 1px solid rgb(88, 164, 189);
+    text-decoration: none;
+}
+
+#card-btn a:hover {
+    background: darkblue;
+    color: white;
+}
+

@@ -1,0 +1,13 @@
+.experience {
+    width: 100%;
+}
+
+.experience-wrapper {
+    padding: 30px;
+    overflow: hidden;
+}
+
+.experience h1 {
+    color: orange;
+    text-transform: uppercase;
+}

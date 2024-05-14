@@ -1,0 +1,37 @@
+:root {
+    --url-img-testimonial: url("./wall-and-laptop-background.jpg");
+
+}
+
+.testimonial {
+    width: 100%;
+    background-image: var(--url-img-testimonial);
+}
+
+.testimonial h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.testimonial-content {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background: white;
+    width: 50%;
+    border: 2px green solid;
+}
+
+
+.carousel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carousel h3 {
+    color: orange;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+

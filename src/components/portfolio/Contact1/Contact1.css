@@ -1,0 +1,83 @@
+.contact-container {
+    text-indent: 50px;
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-container h1 {
+    color: orange;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contact-container p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-img {
+    width: 100%;
+    height: 120px;
+}
+
+.contact-img img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact-btn {
+    color: black;
+    background-color: orange;
+    font-weight: bold;
+    width: 30%;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    /* position:relative; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid blueviolet;
+    border-radius: 0;
+    /* color: orange; */
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 10px;
+    padding-left: 0 !important;
+}
+
+.contact-container textarea {
+    height: 180px !important;
+}
+
+
+.line {
+    position: relative;
+    top: -20px;
+    width: 0;
+    height: 2px;
+    background: orange;
+    display: inline-block;
+}
+
+input:focus+.line,
+textarea:focus+.line {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}

@@ -1,0 +1,29 @@
+.logo {
+    width: 60px;
+
+}
+
+nav {
+    z-index: 1;
+}
+
+.navbar-brand {
+    max-width: 240px;
+    padding: 0 !important;
+    height: 100px !important;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 10px;
+}
+
+.navbar-nav a:focus, .navbar-nav a:hover {
+    border-top: 3px orange solid;
+}

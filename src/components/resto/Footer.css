@@ -1,0 +1,23 @@
+#resto-footer {
+    min-height: 80px;
+}
+
+.footer-text {
+    font-size: large;
+    font-weight: 600 ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: inline-flex; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    width: 100%;
+    /* text-align: center; */
+}
+
+.footer-text span{
+    position: absolute;
+    right: 5px;
+    /* border: #1D2B58 1px solid; */
+    width: 25%;
+}

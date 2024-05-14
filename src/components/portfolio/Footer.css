@@ -1,0 +1,14 @@
+.footer-container {
+    width: 100%;
+    background-color: black;
+    color: azure;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: darkgray;
+}
+.footer-container a:hover{
+    color: orange;
+    cursor: pointer;
+}

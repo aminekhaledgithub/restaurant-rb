@@ -1,0 +1,19 @@
+.img-about-me {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: orange;
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+}

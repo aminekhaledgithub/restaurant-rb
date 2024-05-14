@@ -1,0 +1,34 @@
+#resto-menu{
+    border: 1px solid red ;
+    min-height: 300px;
+    display: flex;
+}
+.menu {
+    /* border: 1px solid black  ; */
+    display: grid;
+    width: 100%;
+    margin :15px ;
+    padding: 65px;
+    
+}
+.menu .row  {
+    box-sizing: border-box;
+    /* border: 1px yellow solid; */
+    padding: 5px;
+    margin: 5px;
+}
+.menu .col  {
+    /* border: 1px blue solid; */
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu h5 {
+    text-align: center;
+    font-family: "kaushan script";
+    font-size: 30px;
+    font-weight: 700;
+    color:var(--resto-1-blue);
+}
+
+

@@ -1,0 +1,45 @@
+:root {
+    --resto-1-blue : #1D2B58;
+}
+#resto-header {
+    height: 100vh;
+    background-image: url(./img/resto-img-logo.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    /* border: 1px solid green;    */
+}
+.navbar {
+    background-color: var(--resto-1-blue);
+    border: 1px solid black;
+    height: 80px;
+}
+.resto-intro {
+    top: 500px;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.resto-intro h1{
+    font-family: "kaushan script";
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: var(--resto-1-blue);
+}
+.resto-intro p{
+    font-family: 'Crimson Pro';
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color:var(--resto-1-blue);
+}
+.resto-intro .fleche {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

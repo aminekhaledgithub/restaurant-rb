@@ -1,0 +1,45 @@
+:root {
+    --url-img-header: url("./wall-and-laptop-background.jpg");
+
+}
+
+.header-wraper {
+    position: relative;
+    background: var(--url-img-header) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.main-info {
+    border: 2px solid green;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-info h1 {
+    color: orange;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+}
+
+.btn-contact-me {
+    border: 1px solid red;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: white;
+    margin: 2px;
+    text-decoration: none;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}

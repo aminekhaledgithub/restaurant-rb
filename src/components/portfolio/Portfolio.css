@@ -1,0 +1,28 @@
+.portfolio-wrapper {
+    background: lightgrey;
+}
+
+.portfolio-image-box {
+    margin: 10px;
+    position: relative;
+    width: 250px;
+    display: block;
+}
+
+.portfolio-img {
+    width: 100%;
+    margin-top: 1px;
+}
+
+.overflow {
+    position: absolute;
+    top: 0;
+    width: 225px;
+    border: 2px solid red;
+    opacity: 0;
+}
+
+.portfolio-image-box:hover .overflow {
+    transition: 0.3s ease-in-out;
+    opacity: 100%;
+} 
